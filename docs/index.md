@@ -16,12 +16,11 @@ masalah serius karena ketidakpahaman tersebut dapat menyebabkan para calon inves
 membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial
 yang signifikan. <br/>
      &nbsp;&nbsp;&nbsp; - Rumusan Permasalahan : <br/>
-    1. Stakeholders pada perusahaan yang sama, akan tetapi tidak memahami posisi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Stakeholders pada perusahaan yang sama, akan tetapi tidak memahami posisi
 kondisi keuangan perusahaan tersebut. <br/>
-    &nbsp;&nbsp;&nbsp;
-    2. Investor yang tidak memiliki Literasi Finansial yang baik tidak memiliki petunjuk
-untuk melakukan analisis secara fundamental terhadap perusahaan terkait.
-    3. Masyarakat yang belum paham terhadap instrumen investasi dan risiko yang
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Investor yang tidak memiliki Literasi Finansial yang baik tidak memiliki petunjuk
+untuk melakukan analisis secara fundamental terhadap perusahaan terkait. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Masyarakat yang belum paham terhadap instrumen investasi dan risiko yang
 didapatkan ketika ingin melakukan proses investasi. <br/>
     &nbsp;&nbsp;&nbsp;- Ide Solusi : Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan Keuangan
 Berbasis Large Language Models Dan Optical Character Recognition. <br/>
