@@ -63,6 +63,7 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
   </tr>
   <tr>
     <td>Kekurangan</td>
+    <td>
     <ul>
       <li> Fokus pada Personal Financial</li>
       <li> Tidak memiliki teknologi untuk menganalisis suatu perusahaan secara fundamental </li>
