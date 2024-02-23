@@ -1,5 +1,5 @@
 # FinScope-AI
-Simplify you Financial Management<br />
+Simplify your corporate financial management<br />
 MBM Venture<br />
 
 Anggota 1:Bintang Restu Bawono - 21/474703/TK/52376<br />
