@@ -22,11 +22,20 @@ kondisi keuangan perusahaan tersebut. <br/>
 untuk melakukan analisis secara fundamental terhadap perusahaan terkait. <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Masyarakat yang belum paham terhadap instrumen investasi dan risiko yang
 didapatkan ketika ingin melakukan proses investasi. <br/>
-    &nbsp;&nbsp;&nbsp;- Ide Solusi : Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan Keuangan
+     &nbsp;&nbsp;&nbsp;- Ide Solusi : Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan Keuangan
 Berbasis Large Language Models Dan Optical Character Recognition. <br/>
 | Fitur                | Keterangan |
 |----------------------|------------|
 | Financial Extraction | Pada fitur ini Financial Extraction adalah fitur yang menggunakan teknologi OCR (Optical Character Recognition) untuk melakukan proses ekstraksi dari Data Keuangan Perusahaan (PDF/PNG) sehingga dapat melakukan beberapa call-to-action terhadap data yang sudah di extract dalam bentuk tabular data. |
 | Risk Measurement     | Pada fitur ini, akan diberikan rekomendasi terhadap pengguna untuk proses diversifikasi terhadap instrumen investasi yang ia kehendaki. Pada fitur ini, Risiko akan berbasis terhadap 2 teori ekonomi yaitu Minimum Variance Frontier dan juga Maximum Sharpe Ratio. |
 | Financial Advisor    | Pada fitur ini kami akan menggunakan Large Language Models untuk memberikan rekomendasi terhadap data keuangan yang sudah di extract melalui Financial Extraction, LLM akan memproses informasi tersebut untuk melakukan analisis dan juga rekomendasi apakah perusahaan tersebut sehat secara finansial atau tidak. |
-    &nbsp;&nbsp;&nbsp;- Analisis Kompetitor : <br/>
+<br/> &nbsp;&nbsp;&nbsp;- Analisis Kompetitor : <br/>
+| Kompetitor 1              |                                                   |
+|---------------------------|---------------------------------------------------|
+| Nama                      | Bibit                                             |
+| Jenis Kompetitor          | Direct/Indirect/Tertiary Competitors              |
+| Jenis Produk              | Robo Advisor (Investment Recommendation)          |
+| Target Customer           | Masyarakat dengan umur 18 - 40 Tahun              |
+| Kelebihan                 | - Segmentasi Investasi yang luas (Saham, Reksadana, Obligasi Pemerintah) <br> - Memiliki Integrated-System antara Advisor dengan Sekuritas |
+| Kekurangan                | - Fokus pada Personal Financial <br> - Tidak memiliki teknologi untuk menganalisis suatu perusahaan secara fundamental |
+| Key Competitive Advantage & Unique Value | Personalized Investment Decision : Fitur ini akan menyesuaikan rekomendasi berdasarkan preferensi investasi pengguna (Agresif/ Menengah/ Aman). Hal ini menjadikan aplikasi lebih user friendly dengan mengedepankan fitur personalized. |
