@@ -71,3 +71,89 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
     <td>Personalized Investment Decision: Fitur ini akan menyesuaikan rekomendasi berdasarkan preferensi investasi pengguna (Agresif/Menengah/Aman). Hal ini menjadikan aplikasi lebih user friendly dengan mengedepankan fitur personalized.</td>
   </tr>
 </table>
+<table style="width:100%; border-collapse: collapse;" border="1">
+  <tr>
+    <th colspan="2">KOMPETITOR 2</th>
+  </tr>
+  <tr>
+    <td>Nama</td>
+    <td>Stockbit</td>
+  </tr>
+  <tr>
+    <td>Jenis Kompetitor</td>
+    <td>Direct/Indirect/Tertiary Competitors</td>
+  </tr>
+  <tr>
+    <td>Jenis Produk</td>
+    <td>Personal Financial Advisor</td>
+  </tr>
+  <tr>
+    <td>Target Customer</td>
+    <td>Masyarakat dengan umur 18 - 40 Tahun</td>
+  </tr>
+  <tr>
+    <td>Kelebihan</td>
+    <td>
+      <ul>
+        <li>Memiliki Pasar Reksadana yang comprehensive yang terdiri dari Reksadana Pasar Uang, Reksadana Obligasi, Reksadana Campuran dan Saham</li>
+        <li>Terdapat Professional tools untuk memudahkan Analisis Technical</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Kekurangan</td>
+    <td>
+      <ul>
+        <li>Hanya fokus pada 1 Instrumen perusahaan saja yaitu Reksadana</li>
+        <li>Memerlukan Pengetahuan Finansial tingkat Menengah untuk menggunakan Professional Tools & Advisor untuk proses Analisis</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Key Competitive Advantage & Unique Value</td>
+    <td>Terdepat fitur Financial Goals dan Menabung Rutin: Fitur ini memiliki basis sebagai sistem reminder terhadap user untuk melakukan investasi secara berkala ada aplikasi. Hal ini akan meningkatkan churn rate dan juga meningkatkan customer retention pada saat persamaan.</td>
+  </tr>
+</table>
+
+<table style="width:100%; border-collapse: collapse;" border="1">
+  <tr>
+    <th colspan="2">KOMPETITOR 3</th>
+  </tr>
+  <tr>
+    <td>Nama</td>
+    <td>HaloFin</td>
+  </tr>
+  <tr>
+    <td>Jenis Kompetitor</td>
+    <td>Direct/Indirect/Tertiary Competitors</td>
+  </tr>
+  <tr>
+    <td>Jenis Produk</td>
+    <td>Financial Advisor</td>
+  </tr>
+  <tr>
+    <td>Target Customer</td>
+    <td>Masyarakat dengan umur 18 - 40 Tahun</td>
+  </tr>
+  <tr>
+    <td>Kelebihan</td>
+    <td>
+      <ul>
+        <li>Fully Integrated advisor yang memiliki landscape rekomendasi yang luas.</li>
+        <li>Terdapat fitur Forecast untuk melakukan prediksi harga dan juga biaya yang akan dikeluarkan untuk kegiatan tertentu.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Kekurangan</td>
+    <td>
+      <ul>
+        <li>Manual Input pada sistem rekomendasi sehingga memiliki kecenderungan untuk mistype.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Key Competitive Advantage & Unique Value</td>
+    <td>Terdepat Life Plan Metric & Cost Forecast : Pada HaloFin, fitur ini merupakan salah satu fitur yang menjadi value proposition dimana Life Plan Metric & Cost Forecast merupakan fitur personalized pada tiap - tiap user. Hal ini mampu meningkatkan positioning HaloFin yang awalnya hanya sebuah advisor menjadi Social Media Investasi untuk pengguna.</td>
+  </tr>
+</table>
