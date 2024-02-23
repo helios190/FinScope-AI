@@ -32,12 +32,42 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
 
 
 <br/> &nbsp;&nbsp;&nbsp;- Analisis Kompetitor : <br/>
-| Kompetitor 1              |                                                   |
-|---------------------------|---------------------------------------------------|
-| Nama                      | Bibit                                             |
-| Jenis Kompetitor          | Direct/Indirect/Tertiary Competitors              |
-| Jenis Produk              | Robo Advisor (Investment Recommendation)          |
-| Target Customer           | Masyarakat dengan umur 18 - 40 Tahun              |
-| Kelebihan                 | - Segmentasi Investasi yang luas (Saham, Reksadana, Obligasi Pemerintah) <br> - Memiliki Integrated-System antara Advisor dengan Sekuritas |
-| Kekurangan                | - Fokus pada Personal Financial <br> - Tidak memiliki teknologi untuk menganalisis suatu perusahaan secara fundamental |
-| Key Competitive Advantage & Unique Value | Personalized Investment Decision : Fitur ini akan menyesuaikan rekomendasi berdasarkan preferensi investasi pengguna (Agresif/ Menengah/ Aman). Hal ini menjadikan aplikasi lebih user friendly dengan mengedepankan fitur personalized. |
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">Kompetitor 1</th>
+  </tr>
+  <tr>
+    <td>Nama</td>
+    <td>Bibit</td>
+  </tr>
+  <tr>
+    <td>Jenis Kompetitor</td>
+    <td>Direct/Indirect/Tertiary Competitors</td>
+  </tr>
+  <tr>
+    <td>Jenis Produk</td>
+    <td>Robo Advisor (Investment Recommendation)</td>
+  </tr>
+  <tr>
+    <td>Target Customer</td>
+    <td>Masyarakat dengan umur 18 - 40 Tahun</td>
+  </tr>
+  <tr>
+    <td>Kelebihan</td>
+    <td>
+      - Segmentasi Investasi yang luas (Saham, Reksadana, Obligasi Pemerintah) <br>
+      - Memiliki Integrated-System antara Advisor dengan Sekuritas
+    </td>
+  </tr>
+  <tr>
+    <td>Kekurangan</td>
+    <td>
+      - Fokus pada Personal Financial <br>
+      - Tidak memiliki teknologi untuk menganalisis suatu perusahaan secara fundamental
+    </td>
+  </tr>
+  <tr>
+    <td>Key Competitive Advantage & Unique Value</td>
+    <td>Personalized Investment Decision: Fitur ini akan menyesuaikan rekomendasi berdasarkan preferensi investasi pengguna (Agresif/Menengah/Aman). Hal ini menjadikan aplikasi lebih user friendly dengan mengedepankan fitur personalized.</td>
+  </tr>
+</table>
