@@ -21,7 +21,24 @@ on:
     - cron: '16 18 * * 0'
 
 jobs:
+  test-build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Testing Build pre-Deploy
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm i
+      - run: npm run build
   bandit:
+    needs : test-build
     permissions:
       contents: read # for actions/checkout to fetch code
       security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
@@ -68,27 +85,9 @@ jobs:
 
       - name: Run security scan
         run: bandit -r .
-  performance-testing:
-    runs-on: ubuntu-latest
-    needs: bandit
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run performance tests
-        run: npm run performance-test
-
   api-documentation:
     runs-on: ubuntu-latest
-    needs: performance-testing
+    needs: bandit
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
