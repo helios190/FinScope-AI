@@ -49,14 +49,6 @@ jobs:
           # skips: # optional, default is DEFAULT
           # path to a .bandit file that supplies command line arguments
           # ini_path: # optional, default is DEFAULT
-name: Full Pipeline
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
   security-testing:
     runs-on: ubuntu-latest
     steps:
