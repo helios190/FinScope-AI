@@ -32,7 +32,7 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
 
 
 <br/> &nbsp;&nbsp;&nbsp;- Analisis Kompetitor : <br/>
-<table>
+<table style="width:100%; border-collapse: collapse;" border="1">
   <tr>
     <th colspan="2" style="text-align:center;">Kompetitor 1</th>
   </tr>
@@ -55,15 +55,18 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
   <tr>
     <td>Kelebihan</td>
     <td>
-      - Segmentasi Investasi yang luas (Saham, Reksadana, Obligasi Pemerintah) <br>
-      - Memiliki Integrated-System antara Advisor dengan Sekuritas
+    <ul>
+    <li> Segmentasi Investasi yang luas (Saham, Reksadana, Obligasi Pemerintah)</li>
+    <li> Memiliki Integrated-System antara Advisor dengan Sekuritas</li>
+    </ul>
     </td>
   </tr>
   <tr>
     <td>Kekurangan</td>
-    <td>
-      - Fokus pada Personal Financial <br>
-      - Tidak memiliki teknologi untuk menganalisis suatu perusahaan secara fundamental
+    <ul>
+      <li> Fokus pada Personal Financial</li>
+      <li> Tidak memiliki teknologi untuk menganalisis suatu perusahaan secara fundamental </li>
+    </ul>
     </td>
   </tr>
   <tr>
