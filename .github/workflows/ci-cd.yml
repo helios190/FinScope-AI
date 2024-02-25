@@ -71,15 +71,6 @@ jobs:
 
       - name: Change to Client directory
         run: cd client
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-    
-      - name: Install dependencies
-        run: npm install
-
+        
       - name: Lint code
         run: npx next lint
