@@ -59,6 +59,9 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./client
     needs: bandit
     strategy:
       matrix:
@@ -68,9 +71,6 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v2
-        
-      - name: Change to Client directory
-        run: cd client
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
