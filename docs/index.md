@@ -173,6 +173,21 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
 
 # Modul 2 - Senior Project
 
+## Metodologi SDLC
+
+** Agile Methodology **
+
+## Alasan Penggunaan Metodologi SDLC
+
+<p>Pada penggunaan metodologi Agile, terdapat beberapa keuntungan yang digunakan untuk pengembangan perangkat lunak yaitu adalah sebagai berikut : </p> <br/>
+<ol>
+  <li>Fleksibilitas dan Adaptibilitas --> Terdapat kemungkinan bahwa fitur yang dikembangakan akan berkurang atau bertambah menurut dengan kapabilitas dan juga resource yang digunakan, sehingga agile sangat cocok dengan pengembang environment berbasis Generative AI. </li>
+  <li>Meningkatkan Collaboration Rate --> Pada Metode Agile, proses development dapat dilakukan secara bersamaan, sehingga tahap tahap R&D dan juga pengembangan lainnya dapat dilakukan dan didistribusikan secara merata.
+  </li>
+  <li>Transparent Progress Tracking --> Terdapat progress tracking yang dapat memantau secara komprehensif mengenai perkembangan development dari team developer.
+  </li>
+</ol>
+
 ## Tujuan Produk
 
 <p>Sebagai Financial Advisor yang memiliki business model B2B (Business-to-Business) untuk sebuah perusahaan untuk mengerti kondisi finansial secara menyeluruh. Masyarakat dan pegawai yang memiliki literasi finansial rendah dapat memahami kondisi perusahaan berdasarkan laporan keuangan menggunakan bantuan Generative AI dan OCR.</p> <br/>
