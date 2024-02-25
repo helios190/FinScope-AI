@@ -1,25 +1,27 @@
 # FinScope-AI - Senior Project <br/>
 
-## MBM-Venture Group <br/>
+## MBM-Venture Group
 
-<ul>
-<li>**Anggota 1**: Bintang Restu Bawono - 21/474703/TK/52376 <br /> </li>
-<li>**Anggota 2**: Muhammad Luthfan Arrayan - 21/479825/TK/52943 <br /> </li>
-<li>**Anggota 3**: Muhammad AlGhifari Fausta - 21/477892/TK/52646 <br /> </li>
+<ul >
+<li>Anggota 1: <span style="font-weight:bold;">Bintang Restu Bawono - 21/474703/TK/52376 </span> </li>
+<li>Anggota 2: <span style="font-weight:bold;"> Muhammad Luthfan Arrayan - 21/479825/TK/52943 </span> </li>
+<li>Anggota 3: <span style="font-weight:bold;"> Muhammad Al Ghifari Fausta - 21/477892/TK/52646 </span> </li>
 </ul>
+
 # Modul 1 - Senior Project
 
-## Instansi :
+<!-- ## Instansi : -->
+<h2 style="display: inline;">Instansi:</h2> <strong>Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada</strong>
 
-**Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada** <br/>
+<!-- **Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada** -->
 
-## Nama Produk : FinScope-AI <br/>
+## Nama Produk : FinScope-AI
 
-## Jenis Produk : Financial Advisor <br/>
+## Jenis Produk : Financial Advisor
 
 ## Latar Belakang :
 
-<p style="text-align: justify;">Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan potensi imbal asil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi dengan risiko yang arus dipahami dengan baik oleh para investor. Sayangnya, pemahaman masyarakat tentang nvestasi masih rendah, bahkan ada yang sama sekali tidak mengerti tentang risiko terkait engan investasi. Hal ini dapat menjadi masalah serius karena ketidakpahaman tersebut dapat enyebabkan para calon investor membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial yang signifikan. </p> <br/>
+<p style="text-align: justify;">Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan potensi imbal asil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi dengan risiko yang arus dipahami dengan baik oleh para investor. Sayangnya, pemahaman masyarakat tentang nvestasi masih rendah, bahkan ada yang sama sekali tidak mengerti tentang risiko terkait engan investasi. Hal ini dapat menjadi masalah serius karena ketidakpahaman tersebut dapat enyebabkan para calon investor membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial yang signifikan. </p>
 
 ## Rumusan Permasalahan :
 
@@ -33,7 +35,7 @@ didapatkan ketika ingin melakukan proses investasi.</li>
 
 ## Ide Solusi :
 
-**Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan KeuanganBerbasis Large Language Models Dan Optical Character Recognition.** <br/>
+**Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan Keuangan Berbasis Large Language Models Dan Optical Character Recognition.** <br/>
 
 | Fitur                | Keterangan                                                                                                                                                                                                                                                                                                           |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -185,17 +187,17 @@ didapatkan ketika ingin melakukan proses investasi.</li>
 ## Alasan Penggunaan Metodologi SDLC
 
 <p>Pada penggunaan metodologi Agile, terdapat beberapa keuntungan yang digunakan untuk pengembangan perangkat lunak yaitu adalah sebagai berikut : </p> <br/>
-<ol>
-  <li>Fleksibilitas dan Adaptibilitas --> Terdapat kemungkinan bahwa fitur yang dikembangakan akan berkurang atau bertambah menurut dengan kapabilitas dan juga resource yang digunakan, sehingga agile sangat cocok dengan pengembang environment berbasis Generative AI. </li>
-  <li>Meningkatkan Collaboration Rate --> Pada Metode Agile, proses development dapat dilakukan secara bersamaan, sehingga tahap tahap R&D dan juga pengembangan lainnya dapat dilakukan dan didistribusikan secara merata.
+<ol style="text-align: justify;">
+  <li>Fleksibilitas dan Adaptibilitas : Terdapat kemungkinan bahwa fitur yang dikembangakan akan berkurang atau bertambah menurut dengan kapabilitas dan juga resource yang digunakan, sehingga agile sangat cocok dengan pengembang environment berbasis Generative AI. </li>
+  <li>Meningkatkan Collaboration Rate : Pada Metode Agile, proses development dapat dilakukan secara bersamaan, sehingga tahap tahap R&D dan juga pengembangan lainnya dapat dilakukan dan didistribusikan secara merata.
   </li>
-  <li>Transparent Progress Tracking --> Terdapat progress tracking yang dapat memantau secara komprehensif mengenai perkembangan development dari team developer.
+  <li>Transparent Progress Tracking : Terdapat progress tracking yang dapat memantau secara komprehensif mengenai perkembangan development dari team developer.
   </li>
 </ol>
 
 ## Tujuan Produk
 
-<p>Sebagai Financial Advisor yang memiliki business model B2B (Business-to-Business) untuk sebuah perusahaan untuk mengerti kondisi finansial secara menyeluruh. Masyarakat dan pegawai yang memiliki literasi finansial rendah dapat memahami kondisi perusahaan berdasarkan laporan keuangan menggunakan bantuan Generative AI dan OCR.</p> <br/>
+<p style="text-align: justify;">Sebagai Financial Advisor yang memiliki business model B2B (Business-to-Business) untuk sebuah perusahaan untuk mengerti kondisi finansial secara menyeluruh. Masyarakat dan pegawai yang memiliki literasi finansial rendah dapat memahami kondisi perusahaan berdasarkan laporan keuangan menggunakan bantuan Generative AI dan OCR.</p>
 
 ## Pengguna Potensial dari Produk dan Kebutuhan
 
