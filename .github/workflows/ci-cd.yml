@@ -65,10 +65,12 @@ jobs:
         node-version: [16.x]
 
     steps:
-
+      - name: Ubah folder
+        run: cd -
+          
       - name: Checkout code
         uses: actions/checkout@v2
-
+        
       - name: Change to Client directory
         run: cd client
 
