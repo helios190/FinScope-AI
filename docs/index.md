@@ -175,7 +175,7 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
 
 ## Metodologi SDLC
 
-** Agile Methodology **
+**Agile Methodology**
 
 ## Alasan Penggunaan Metodologi SDLC
 
