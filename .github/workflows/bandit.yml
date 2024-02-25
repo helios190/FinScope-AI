@@ -29,17 +29,25 @@ jobs:
         node-version: [16.x]
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Testing Build pre-Deploy
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-          script: |
-            echo "Cek Folder Project";
-            cd public
-      - run: npm i
-      - run: npm run build
+
+      - name: Check Project Folder
+        run: echo "Cek Folder Project"
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./client
+
+      - name: Build
+        run: npm run build
+        working-directory: ./client
   bandit:
     permissions:
       contents: read # for actions/checkout to fetch code
