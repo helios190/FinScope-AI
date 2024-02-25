@@ -74,6 +74,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
+      - name: Change to Client directory
+        run: cd client
+    
+      - name: Install dependencies
+        run: npm install
+
       - name: Lint code
         run: npx next lint
-        working-directory: ./client
