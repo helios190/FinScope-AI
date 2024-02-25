@@ -58,6 +58,7 @@ jobs:
         run: bandit -r .
         
   build:
+      name : frontend-build
       runs-on: ubuntu-latest
       defaults:
         run:
@@ -79,6 +80,7 @@ jobs:
           run: npx next build
 
   lint:
+    name: frontend-lint
     runs-on: ubuntu-latest
     defaults:
       run:
