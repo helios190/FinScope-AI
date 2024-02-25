@@ -40,19 +40,18 @@ jobs:
 
       - name: Check Project Folder
         run: echo "Cek Folder Project"
-        working-directory: ./client
+        working-directory: client/finscope
 
       - name: Install dependencies
         run: | 
           cd client
           npm install
-        working-directory: ./client
-
+        working-directory: client/finscope
       - name: Build
         run: |
           cd client
           npm run build
-        working-directory: ./client
+        working-directory: client/finscope
   bandit:
     permissions:
       contents: read # for actions/checkout to fetch code
