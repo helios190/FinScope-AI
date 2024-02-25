@@ -65,6 +65,9 @@ jobs:
         node-version: [16.x]
 
     steps:
+      - name: Change to Client directory
+        run: cd client
+        
       - name: Checkout code
         uses: actions/checkout@v2
 
@@ -73,9 +76,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-
-      - name: Change to Client directory
-        run: cd client
     
       - name: Install dependencies
         run: npm install
