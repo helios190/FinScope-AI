@@ -1,20 +1,24 @@
 # FinScope-AI - Senior Project <br/>
 
-# MBM-Venture Group <br/>
+## MBM-Venture Group <br/>
 
-    &nbsp;&nbsp;&nbsp;**Anggota 1**: Bintang Restu Bawono - 21/474703/TK/52376<br />
-    &nbsp;&nbsp;&nbsp;**Anggota 2**: Muhammad Luthfan Arrayan - 21/479825/TK/52943<br />
-    &nbsp;&nbsp;&nbsp;**Anggota 3**: Muhammad AlGhifari Fausta - 21/477892/TK/52646<br />
+&nbsp;&nbsp;&nbsp;**Anggota 1**: Bintang Restu Bawono - 21/474703/TK/52376 <br />
+&nbsp;&nbsp;&nbsp;**Anggota 2**: Muhammad Luthfan Arrayan - 21/479825/TK/52943 <br />
+&nbsp;&nbsp;&nbsp;**Anggota 3**: Muhammad AlGhifari Fausta - 21/477892/TK/52646 <br />
 
 # Modul 1 - Senior Project
 
-## Instansi : **Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada** <br/>
+## Instansi :
+
+**Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada** <br/>
 
 ## Nama Produk : FinScope-AI <br/>
 
 ## Jenis Produk : Financial Advisor <br/>
 
-## Latar Belakang : Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan potensi imbal asil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi dengan risiko yang arus dipahami dengan baik oleh para investor. Sayangnya, pemahaman masyarakat tentang nvestasi masih rendah, bahkan ada yang sama sekali tidak mengerti tentang risiko terkait engan investasi. Hal ini dapat menjadi masalah serius karena ketidakpahaman tersebut dapat enyebabkan para calon investor membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial yang signifikan. <br/>
+## Latar Belakang :
+
+<p>Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan potensi imbal asil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi dengan risiko yang arus dipahami dengan baik oleh para investor. Sayangnya, pemahaman masyarakat tentang nvestasi masih rendah, bahkan ada yang sama sekali tidak mengerti tentang risiko terkait engan investasi. Hal ini dapat menjadi masalah serius karena ketidakpahaman tersebut dapat enyebabkan para calon investor membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial yang signifikan. </p> <br/>
 
 ## Rumusan Permasalahan : <br/>
 
@@ -32,7 +36,9 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
 | Risk Measurement | Pada fitur ini, akan diberikan rekomendasi terhadap pengguna untuk proses diversifikasi terhadap instrumen investasi yang ia kehendaki. Pada fitur ini, Risiko akan berbasis terhadap 2 teori ekonomi yaitu Minimum Variance Frontier dan juga Maximum Sharpe Ratio. |
 | Financial Advisor | Pada fitur ini kami akan menggunakan Large Language Models untuk memberikan rekomendasi terhadap data keuangan yang sudah di extract melalui Financial Extraction, LLM akan memproses informasi tersebut untuk melakukan analisis dan juga rekomendasi apakah perusahaan tersebut sehat secara finansial atau tidak. |
 
-<br/> &nbsp;&nbsp;&nbsp;- Analisis Kompetitor : <br/>
+<br/>
+
+## Analisis Kompetitor : <br/>
 
 <table style="width:100%; border-collapse: collapse;" border="1">
   <tr>
@@ -77,6 +83,7 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
     <td>Personalized Investment Decision: Fitur ini akan menyesuaikan rekomendasi berdasarkan preferensi investasi pengguna (Agresif/Menengah/Aman). Hal ini menjadikan aplikasi lebih user friendly dengan mengedepankan fitur personalized.</td>
   </tr>
 </table>
+<br/>
 <table style="width:100%; border-collapse: collapse;" border="1">
   <tr>
     <th colspan="2">KOMPETITOR 2</th>
@@ -120,7 +127,7 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
     <td>Terdepat fitur Financial Goals dan Menabung Rutin: Fitur ini memiliki basis sebagai sistem reminder terhadap user untuk melakukan investasi secara berkala ada aplikasi. Hal ini akan meningkatkan churn rate dan juga meningkatkan customer retention pada saat persamaan.</td>
   </tr>
 </table>
-
+<br/>
 <table style="width:100%; border-collapse: collapse;" border="1">
   <tr>
     <th colspan="2">KOMPETITOR 3</th>
