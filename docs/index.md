@@ -1,37 +1,39 @@
-i. Nama Kelompok: MBM-Venture <br/>
-ii. Anggota 1: Bintang Restu Bawono - 21/474703/TK/52376<br />
-    &nbsp;&nbsp;&nbsp;Anggota 2: Muhammad Luthfan Arrayan - 21/479825/TK/52943<br />
-    &nbsp;&nbsp;&nbsp;Anggota 3: Muhammad AlGhifari Fausta - 21/477892/TK/52646<br/>
-iii. Project Senior TI<br/>
-iv. Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada
-v. - Nama Produk : FinScope-AI <br/>
-    &nbsp;&nbsp;&nbsp; - Jenis Produk : Financial Advisor <br/>
-    &nbsp;&nbsp;&nbsp; - Latar Belakang : Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan
-mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan
-potensi imbal hasil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi
-dengan risiko yang harus dipahami dengan baik oleh para investor.
-Sayangnya, pemahaman masyarakat tentang investasi masih rendah, bahkan ada yang
-sama sekali tidak mengerti tentang risiko terkait dengan investasi. Hal ini dapat menjadi
-masalah serius karena ketidakpahaman tersebut dapat menyebabkan para calon investor
-membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial
-yang signifikan. <br/>
-     &nbsp;&nbsp;&nbsp; - Rumusan Permasalahan : <br/>
+# FinScope-AI - Senior Project <br/>
+
+# MBM-Venture Group <br/>
+
+    &nbsp;&nbsp;&nbsp;**Anggota 1**: Bintang Restu Bawono - 21/474703/TK/52376<br />
+    &nbsp;&nbsp;&nbsp;**Anggota 2**: Muhammad Luthfan Arrayan - 21/479825/TK/52943<br />
+    &nbsp;&nbsp;&nbsp;**Anggota 3**: Muhammad AlGhifari Fausta - 21/477892/TK/52646<br />
+
+# Modul 1 - Senior Project
+
+## Instansi : **Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada** <br/>
+
+## Nama Produk : FinScope-AI <br/>
+
+## Jenis Produk : Financial Advisor <br/>
+
+## Latar Belakang : Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan potensi imbal asil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi dengan risiko yang arus dipahami dengan baik oleh para investor. Sayangnya, pemahaman masyarakat tentang nvestasi masih rendah, bahkan ada yang sama sekali tidak mengerti tentang risiko terkait engan investasi. Hal ini dapat menjadi masalah serius karena ketidakpahaman tersebut dapat enyebabkan para calon investor membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial yang signifikan. <br/>
+
+## Rumusan Permasalahan : <br/>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Stakeholders pada perusahaan yang sama, akan tetapi tidak memahami posisi
 kondisi keuangan perusahaan tersebut. <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Investor yang tidak memiliki Literasi Finansial yang baik tidak memiliki petunjuk
 untuk melakukan analisis secara fundamental terhadap perusahaan terkait. <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Masyarakat yang belum paham terhadap instrumen investasi dan risiko yang
 didapatkan ketika ingin melakukan proses investasi. <br/>
-     &nbsp;&nbsp;&nbsp;- Ide Solusi : Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan Keuangan
+&nbsp;&nbsp;&nbsp;- Ide Solusi : Sistem Rekomendasi Kesehatan Keuangan Perusahaan Melalui Analisa Laporan Keuangan
 Berbasis Large Language Models Dan Optical Character Recognition. <br/>
-| Fitur                | Keterangan |
+| Fitur | Keterangan |
 |----------------------|------------|
 | Financial Extraction | Pada fitur ini Financial Extraction adalah fitur yang menggunakan teknologi OCR (Optical Character Recognition) untuk melakukan proses ekstraksi dari Data Keuangan Perusahaan (PDF/PNG) sehingga dapat melakukan beberapa call-to-action terhadap data yang sudah di extract dalam bentuk tabular data. |
-| Risk Measurement     | Pada fitur ini, akan diberikan rekomendasi terhadap pengguna untuk proses diversifikasi terhadap instrumen investasi yang ia kehendaki. Pada fitur ini, Risiko akan berbasis terhadap 2 teori ekonomi yaitu Minimum Variance Frontier dan juga Maximum Sharpe Ratio. |
-| Financial Advisor    | Pada fitur ini kami akan menggunakan Large Language Models untuk memberikan rekomendasi terhadap data keuangan yang sudah di extract melalui Financial Extraction, LLM akan memproses informasi tersebut untuk melakukan analisis dan juga rekomendasi apakah perusahaan tersebut sehat secara finansial atau tidak. |
-
+| Risk Measurement | Pada fitur ini, akan diberikan rekomendasi terhadap pengguna untuk proses diversifikasi terhadap instrumen investasi yang ia kehendaki. Pada fitur ini, Risiko akan berbasis terhadap 2 teori ekonomi yaitu Minimum Variance Frontier dan juga Maximum Sharpe Ratio. |
+| Financial Advisor | Pada fitur ini kami akan menggunakan Large Language Models untuk memberikan rekomendasi terhadap data keuangan yang sudah di extract melalui Financial Extraction, LLM akan memproses informasi tersebut untuk melakukan analisis dan juga rekomendasi apakah perusahaan tersebut sehat secara finansial atau tidak. |
 
 <br/> &nbsp;&nbsp;&nbsp;- Analisis Kompetitor : <br/>
+
 <table style="width:100%; border-collapse: collapse;" border="1">
   <tr>
     <th colspan="2" style="text-align:center;">Kompetitor 1</th>
@@ -161,3 +163,40 @@ Berbasis Large Language Models Dan Optical Character Recognition. <br/>
     <td>Terdepat Life Plan Metric & Cost Forecast : Pada HaloFin, fitur ini merupakan salah satu fitur yang menjadi value proposition dimana Life Plan Metric & Cost Forecast merupakan fitur personalized pada tiap - tiap user. Hal ini mampu meningkatkan positioning HaloFin yang awalnya hanya sebuah advisor menjadi Social Media Investasi untuk pengguna.</td>
   </tr>
 </table>
+
+# Modul 2 - Senior Project
+
+## Tujuan Produk
+
+<p>Sebagai Financial Advisor yang memiliki business model B2B (Business-to-Business) untuk sebuah perusahaan untuk mengerti kondisi finansial secara menyeluruh. Masyarakat dan pegawai yang memiliki literasi finansial rendah dapat memahami kondisi perusahaan berdasarkan laporan keuangan menggunakan bantuan Generative AI dan OCR.</p> <br/>
+
+## Pengguna Potensial dari Produk dan Kebutuhan
+
+<ol>
+<li>Gen Z ( 18 - 23 Tahun ) yang ingin memulai analisis secara fundamental pada sebuah perusahaan</li>
+<li>Gen Y ( 24 - 39 Tahun ) yang diduduki oleh usia pemasukan stabil yang ingin menilai perusahaan dari segi performa finansial.</li>
+</ol>
+
+## Use Case Diagram
+
+![Use Case Diagram](assets/use_case_diag.png)
+
+## Functional Requirement
+
+| **FR** | **Deskripsi**                                                |
+| ------ | ------------------------------------------------------------ |
+| FR-1   | Application must provide user the capability to upload file. |
+| FR-2   | Application must provide result visualization.               |
+| FR-3   | Application must display warning if something went wrong.    |
+
+## Entity Relationship Diagram
+
+![ERD](assets/erdngab.drawio.png)
+
+## Low Fidelity Wireframe
+
+![Low Fidelity Wireframe](assets/lofi_design.png)
+
+## Gantt-Chart Project
+
+![Gantt-Chart](assets/gantt_chart.png)
