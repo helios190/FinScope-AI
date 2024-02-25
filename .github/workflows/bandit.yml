@@ -42,12 +42,14 @@ jobs:
         run: echo "Cek Folder Project"
 
       - name: Install dependencies
-        run: npm install
-        working-directory: client
+        run: | 
+          cd client
+          npm install
 
       - name: Build
-        run: npm run build
-        working-directory: client
+        run: |
+          cd client
+          npm run build
   bandit:
     permissions:
       contents: read # for actions/checkout to fetch code
