@@ -1,3 +1,9 @@
+<head>
+  <style>
+    h2 {display: inline;}
+  </style>
+</head>
+
 # FinScope-AI - Senior Project <br/>
 
 ## MBM-Venture Group
@@ -8,10 +14,10 @@
 <li>Anggota 3: <span style="font-weight:bold;"> Muhammad Al Ghifari Fausta - 21/477892/TK/52646 </span> </li>
 </ul>
 
-# Modul 1 - Senior Project
+# Modul 1 - Pembentukan Kelompok dan Perumusan Masalah
 
 <!-- ## Instansi : -->
-<h2 style="display: inline;">Instansi:</h2> <strong>Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada</strong>
+<h2 >Instansi:</h2> <strong>Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada</strong>
 
 <!-- **Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada** -->
 
@@ -23,7 +29,7 @@
 
 <p style="text-align: justify;">Investasi merupakan kegiatan untuk mengembangkan dana dengan harapan mendapatkan keuntungan di masa depan. Namun, meskipun investasi menjanjikan potensi imbal asil yang menguntungkan, keberhasilan dalam berinvestasi juga diimbangi dengan risiko yang arus dipahami dengan baik oleh para investor. Sayangnya, pemahaman masyarakat tentang nvestasi masih rendah, bahkan ada yang sama sekali tidak mengerti tentang risiko terkait engan investasi. Hal ini dapat menjadi masalah serius karena ketidakpahaman tersebut dapat enyebabkan para calon investor membuat keputusan yang kurang tepat, bahkan berisiko mengalami kerugian finansial yang signifikan. </p>
 
-## Rumusan Permasalahan :
+<h2> Rumusan Permasalahan : </h2>
 
 <ol>
   <li>Stakeholders pada perusahaan yang sama, akan tetapi tidak memahami posisi</li>
@@ -45,7 +51,7 @@ didapatkan ketika ingin melakukan proses investasi.</li>
 
 <br/>
 
-## Analisis Kompetitor : <br/>
+<h2> Analisis Kompetitor : </h2> <br/>
 
 <table style="width:100%; border-collapse: collapse;" border="1">
   <tr>
@@ -178,13 +184,9 @@ didapatkan ketika ingin melakukan proses investasi.</li>
   </tr>
 </table>
 
-# Modul 2 - Senior Project
+# Modul 2 - SDLC & Git
 
-## Metodologi SDLC
-
-**Agile Methodology**
-
-## Alasan Penggunaan Metodologi SDLC
+<h2 >Metodologi SDLC</h2> <strong>Agile Methodology</strong>
 
 <p>Pada penggunaan metodologi Agile, terdapat beberapa keuntungan yang digunakan untuk pengembangan perangkat lunak yaitu adalah sebagai berikut : </p> <br/>
 <ol style="text-align: justify;">
@@ -195,18 +197,17 @@ didapatkan ketika ingin melakukan proses investasi.</li>
   </li>
 </ol>
 
-## Tujuan Produk
-
+<h2> Tujuan Produk </h2> <br/>
 <p style="text-align: justify;">Sebagai Financial Advisor yang memiliki business model B2B (Business-to-Business) untuk sebuah perusahaan untuk mengerti kondisi finansial secara menyeluruh. Masyarakat dan pegawai yang memiliki literasi finansial rendah dapat memahami kondisi perusahaan berdasarkan laporan keuangan menggunakan bantuan Generative AI dan OCR.</p>
 
-## Pengguna Potensial dari Produk dan Kebutuhan
+<h2> Pengguna Potensial dari Produk dan Kebutuhan </h2>
 
 <ol>
   <li>Gen Z ( 18 - 23 Tahun ) yang ingin memulai analisis secara fundamental pada sebuah perusahaan</li>
   <li>Gen Y ( 24 - 39 Tahun ) yang diduduki oleh usia pemasukan stabil yang ingin menilai perusahaan dari segi performa finansial.</li>
 </ol>
 
-## Use Case Diagram
+<h2>Use Case Diagram </h2>
 
 ![Use Case Diagram](assets/use_case_diag.png)
 
