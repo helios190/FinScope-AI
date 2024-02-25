@@ -21,6 +21,25 @@ on:
     - cron: '16 18 * * 0'
 
 jobs:
+  test-build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Testing Build pre-Deploy
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+          script: |
+            echo "Cek Folder Project";
+            cd public
+      - run: npm i
+      - run: npm run build
   bandit:
     permissions:
       contents: read # for actions/checkout to fetch code
