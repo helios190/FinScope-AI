@@ -3,7 +3,7 @@ import NoImage from "../placeholder/NoImage";
 
 export default function Description() {
   return (
-    <div className="grid grid-cols-2 gap-x-8 px-16 py-8">
+    <div className="grid grid-cols-2 gap-x-8">
       <div>
         <p className="text-lg mb-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

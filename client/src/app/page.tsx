@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <>
       <Splash />
-      <Description />
-      <Teams />
-      <div className="flex justify-center text-center mb-8">Will be updated soon...</div>
+      <div className="flex flex-col p-12 gap-y-8">
+        <Description />
+        <Teams />
+        <div className="flex justify-center text-center">Will be updated soon...</div>
+      </div>
     </>
   );
 }
