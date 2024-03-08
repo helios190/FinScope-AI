@@ -1,7 +1,7 @@
 import Description from "@/components/landing_page/Description";
 import Teams from "@/components/landing_page/Teams";
 import Splash from "@/components/landing_page/Splash";
-import Image from "next/image";
+import Disclaimer from "@/components/landing_page/Disclaimer";
 
 export default function Home() {
   return (
@@ -10,7 +10,15 @@ export default function Home() {
       <div className="flex flex-col p-12 gap-y-8">
         <Description />
         <Teams />
-        <div className="flex justify-center text-center">Will be updated soon...</div>
+        {/* ill take care of this later */}
+        {/* <div className="grid grid-cols-2">
+            <FAQ question="oiwoecboiebocbi??">
+                <p className="text=lg">Answer</p>
+            </FAQ>
+        </div> */}
+        
+        <div className="flex justify-center text-center">faq (will be updated, probably)</div>
+        <Disclaimer/>
       </div>
     </>
   );
