@@ -2,12 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
-  const logoSize = 40;
   return (
     <div className="p-12 bg-neutral-400">
       <div className="grid grid-cols-4 grid-flow-col gap-4">
         <div>
-          <p className="font-bold text-4xl">FinScope AI</p>
+          <Link href="/">
+            <p className="font-bold text-4xl">FinScope AI</p>
+          </Link>
         </div>
         <div>
           <p className="font-bold text-xl mb-4">SOCIALS</p>
@@ -27,16 +28,26 @@ export default function Footer() {
         <div>
           <p className="font-bold text-xl mb-4">LINKS</p>
           <div className="flex flex-col">
-            <Link href="#" className="text-xl">Some Link</Link>
-            <Link href="#" className="text-xl">Another Link</Link>
-            <Link href="#" className="text-xl">Even More Link</Link>
+            <Link href="#" className="text-xl">
+              Some Link
+            </Link>
+            <Link href="#" className="text-xl">
+              Another Link
+            </Link>
+            <Link href="#" className="text-xl">
+              Even More Link
+            </Link>
           </div>
         </div>
         <div>
           <p className="font-bold text-xl mb-4">LINKS</p>
           <div className="flex flex-col">
-            <Link href="#" className="text-xl">Link On Second Column</Link>
-            <Link href="#" className="text-xl">Another Link On Second Column</Link>
+            <Link href="#" className="text-xl">
+              Link On Second Column
+            </Link>
+            <Link href="#" className="text-xl">
+              Another Link On Second Column
+            </Link>
           </div>
         </div>
       </div>
