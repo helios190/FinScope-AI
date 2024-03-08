@@ -46,9 +46,14 @@ export default function UploadPage() {
           </div>
         </Link>
       </div>
-      <Link href="#">
-          <button className="text-white bg-neutral-800 w-full py-2 rounded-lg enabled:hover:bg-neutral-900 disabled:opacity-50" disabled={file == undefined}>Upload</button>
-        </Link>
+      <Link href="/result">
+        <button
+          className="text-white bg-neutral-800 w-full py-2 rounded-lg enabled:hover:bg-neutral-900 disabled:opacity-50"
+          disabled={file == undefined}
+        >
+          Upload
+        </button>
+      </Link>
     </div>
   );
 }
