@@ -4,6 +4,7 @@ import Image from "next/image";
 import BrowseFile from "@/components/upload_page/BrowseFile";
 import DropFile from "@/components/upload_page/DropFile";
 import Link from "next/link";
+import QuestionCircle from "@/components/icons/QuestionCircle";
 
 export default function UploadPage() {
   const [file, setFile] = useState<File | undefined>(undefined);
@@ -40,8 +41,9 @@ export default function UploadPage() {
         </div>
         {/* example pdf if needed */}
         <Link href="#">
-          <div className="flex flex-row gap-x-2">
-            <Image src="./icons/question-circle.svg" width={20} height={20} alt="question-mark" />
+          <div className="flex flex-row gap-x-2 items-center">
+            <QuestionCircle width={20} height={20}/>
+            {/* <Image src="./icons/question-circle.svg" width={20} height={20} alt="question-mark" /> */}
             <p className="text-lg">Example PDF</p>
           </div>
         </Link>
