@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useWindowSize } from "@uidotdev/usehooks";
 
 export default function Splash() {
+  const size = useWindowSize();
   // somewhat responsive? (still wondering what itll should look like in mobile)
   function generateBackground(width: number, height: number) {
     const TARGET_WIDTH = 1440;
@@ -52,7 +54,7 @@ export default function Splash() {
   return (
     <div className="relative flex flex-col items-center justify-center h-[32rem]">
       <span className="absolute top-0 md:h-1/2 sm:h-3/4 h-4/5 w-full bg-primary-700" />
-      {generateBackground(1440, 500)}
+      {generateBackground(size.width ?? 1440, 500)}
       <div className="relative z-10 flex flex-col items-center p-16">
         <p className="font-bold text-4xl text-neutral-100 lg:text-6xl mb-8">FinScope AI</p>
         <p className="text-lg text-wrap text-center text-neutral-100 md:max-w-[60%] mb-8">

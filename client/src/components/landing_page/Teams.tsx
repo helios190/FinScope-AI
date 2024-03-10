@@ -2,7 +2,7 @@ import NoImage from "../placeholder/NoImage";
 
 export default function Teams() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center text-white">
       <p className="font-bold text-4xl mb-12">Meet the Team</p>
       <div className="grid grid-cols-3 w-full">
         <div className="flex flex-col items-center text-center">

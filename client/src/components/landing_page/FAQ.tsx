@@ -3,7 +3,7 @@ import QuestionCircleFill from "../icons/QuestionCircleFill";
 
 export default function FAQ() {
   return (
-    <div className="flex flex-col items-center gap-y-6">
+    <div className="flex flex-col items-center gap-y-6 text-white">
       <p className="font-bold text-4xl text-center">Frequently Asked Question</p>
       <div className="grid grid-cols-2 gap-x-4 gap-y-8 w-full">
         <div className="flex flex-col gap-y-2">
