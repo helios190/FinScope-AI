@@ -3,17 +3,19 @@
 import Link from "next/link";
 
 export default function Splash() {
-    // splash still isnt yet responsive (still wondering what itll should look like in mobile)
+  // somewhat responsive? (still wondering what itll should look like in mobile)
   function generateBackground(width: number, height: number) {
+    const TARGET_WIDTH = 1440;
+    const TARGET_HEIGHT = 500;
     return (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" className="absolute top-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" className="absolute bottom-0">
         <mask id="splashBackgroundMask">
           <path fill="white" d="M1440,450L1440,0L0,0L0,450 C480,500,960,500,1440,450" />
         </mask>
         <g mask="url(#splashBackgroundMask)">
           <rect width="1440" height="500" fill="#016FB9" />
           {(() => {
-            const bars = Math.floor(width / 72);
+            const bars = Math.floor(TARGET_WIDTH / 72);
             const f = (x: number) => ((x + 1) / bars) ** 3;
 
             const nodes = [];
@@ -21,16 +23,16 @@ export default function Splash() {
               if (i % 2 == 0)
                 nodes.push(
                   <rect
-                    x={(i * width) / bars}
-                    y={(1 - f(i + 1)) * height}
+                    x={(i * TARGET_WIDTH) / bars}
+                    y={(1 - f(i + 1)) * TARGET_HEIGHT}
                     width="72.0"
-                    height={f(i + 1) * height}
+                    height={f(i + 1) * TARGET_HEIGHT}
                     rx="18.0"
                     fill="#0189E4"
                   >
                     <animate
                       attributeName="y"
-                      values={`500;500;${(1 - f(i + 1)) * height};${(1 - f(i + 1)) * height}`}
+                      values={`500;500;${(1 - f(i + 1)) * TARGET_HEIGHT};${(1 - f(i + 1)) * TARGET_HEIGHT}`}
                       dur="2s"
                       calcMode="spline"
                       keyTimes={`0;${i / (2 * bars)};${(i + bars) / (2 * bars)};1`}
@@ -49,6 +51,7 @@ export default function Splash() {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-[32rem]">
+      <span className="absolute top-0 md:h-1/2 sm:h-3/4 h-4/5 w-full bg-primary-700" />
       {generateBackground(1440, 500)}
       <div className="relative z-10 flex flex-col items-center p-16">
         <p className="font-bold text-4xl text-neutral-100 lg:text-6xl mb-8">FinScope AI</p>
