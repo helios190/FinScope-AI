@@ -16,7 +16,7 @@ export default function Description() {
           est laborum.
         </p>
         <Link href="/upload">
-          <button className="text-black bg-secondary-300 w-full py-2 rounded-lg hover:bg-neutral-900">Start</button>
+          <button className="text-black bg-secondary-300 w-full py-2 rounded-lg hover:bg-yellow-400">Start</button>
         </Link>
       </div>
     </div>
