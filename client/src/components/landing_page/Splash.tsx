@@ -15,7 +15,7 @@ export default function Splash() {
           <path fill="white" d="M1440,450L1440,0L0,0L0,450 C480,500,960,500,1440,450" />
         </mask>
         <g mask="url(#splashBackgroundMask)">
-          <rect width="1440" height="500" fill="#016FB9" />
+          <rect width="1440" height="500" fill="#017DD0" />
           {(() => {
             const bars = Math.floor(TARGET_WIDTH / 72);
             const f = (x: number) => ((x + 1) / bars) ** 3;
@@ -30,7 +30,7 @@ export default function Splash() {
                     width="72.0"
                     height={f(i + 1) * TARGET_HEIGHT}
                     rx="18.0"
-                    fill="#0189E4"
+                    fill="#0199FE"
                   >
                     <animate
                       attributeName="y"
@@ -53,7 +53,7 @@ export default function Splash() {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-[32rem]">
-      <span className="absolute top-0 md:h-1/2 sm:h-3/4 h-4/5 w-full bg-primary-700" />
+      <span className="absolute top-0 md:h-1/2 sm:h-3/4 h-4/5 w-full bg-primary-600" />
       {generateBackground(size.width ?? 1440, 500)}
       <div className="relative z-10 flex flex-col items-center p-16">
         <p className="font-bold text-4xl text-neutral-100 lg:text-6xl mb-8">FinScope AI</p>
@@ -62,7 +62,7 @@ export default function Splash() {
           magna aliqua
         </p>
         <Link href="/upload">
-          <button className="text-black bg-yellow-300 px-32 py-2 rounded-lg hover:bg-yellow-400">Start</button>
+          <button className="text-black bg-secondary-400 px-32 py-2 rounded-lg hover:bg-secondary-600">Start</button>
         </Link>
       </div>
     </div>

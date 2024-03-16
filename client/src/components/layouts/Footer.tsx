@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <div className="text-white">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" className="translate-y-px">
-        <path fill="#0189E4" d="M0,50C480,100,960,0,1440,50L1440,100L0,100Z" />
-        <path fill="#016FB9" d="M0,50C480,0,960,100,1440,50L1440,100L0,100Z" />
+        <path fill="#0199FE" d="M0,50C480,100,960,0,1440,50L1440,100L0,100Z" />
+        <path fill="#017DD0" d="M0,50C480,0,960,100,1440,50L1440,100L0,100Z" />
       </svg>
-      <div className="p-12 grid grid-cols-4 grid-flow-col gap-4 bg-primary-700">
+      <div className="p-12 grid grid-cols-4 grid-flow-col gap-4 bg-primary-600">
         <div>
           <Link href="/">
             <p className="font-bold text-4xl">FinScope AI</p>

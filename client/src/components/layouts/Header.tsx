@@ -8,7 +8,7 @@ export default function Header() {
   return usePathname() == "/" ? (
     <></>
   ) : (
-    <div className="flex items-center bg-primary-700 h-24 px-12">
+    <div className="flex items-center bg-primary-600 h-24 px-12">
       <Link href="/">
         <p className="text-white font-bold text-4xl">FinScope AI</p>
       </Link>
