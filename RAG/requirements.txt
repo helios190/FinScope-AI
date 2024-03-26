@@ -1,0 +1,11 @@
+langchain
+tiktoken
+wikipedia
+openai
+pypdf
+faiss-cpu
+pinecone-client
+python-dotenv
+flask
+langchain-community 
+langchain-openai 
