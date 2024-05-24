@@ -33,14 +33,17 @@ export default function UploadPage() {
     const formData = new FormData();
     formData.append("file", file);
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_API_ORIGIN + "/upload", {
+      const response = await fetch(/*process.env.NEXT_PUBLIC_BACKEND_API_ORIGIN + "/upload"*/ "/api/upload", {
         method: "POST",
-        body: formData,
+        body: await file.arrayBuffer(),
       });
 
-      if (response.ok) router.push("/result");
+      if (response.ok)  {
+        const data = await response.json();
+        if (data.id)
+            router.push("/result?id=" + data.id);
+      }
       else alert("Upload failed");
-
     } catch (e) {
       console.error("Error:", e);
       alert("Error uploading file");

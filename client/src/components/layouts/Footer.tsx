@@ -8,7 +8,7 @@ export default function Footer() {
         <path fill="#0199FE" d="M0,50C480,100,960,0,1440,50L1440,100L0,100Z" />
         <path fill="#017DD0" d="M0,50C480,0,960,100,1440,50L1440,100L0,100Z" />
       </svg>
-      <div className="p-12 grid grid-cols-4 grid-flow-col gap-4 bg-primary-600">
+      <div className="p-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-4 bg-primary-600">
         <div>
           <Link href="/">
             <p className="font-bold text-4xl">FinScope AI</p>

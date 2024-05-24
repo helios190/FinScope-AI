@@ -9,13 +9,19 @@ export default function Splash() {
   function generateBackground(width: number, height: number) {
     const TARGET_WIDTH = 1440;
     const TARGET_HEIGHT = 500;
+    const view_box = [(Math.max(width, TARGET_WIDTH) - width) / 2, 0, width, 500].join(" ");
+    const mask_path = `M${(Math.max(width, TARGET_WIDTH) - width) / 2 + width},${height * 0.9},l0,${
+      -height * 0.9
+    }l${-width},0l0,${height * 0.9} c${width * 0.25},${height * 0.1},${width * 0.75},${height * 0.1},${width},0`;
+    //                `M${width},${height*0.9},L${width},0      L0,0        L0,${height*0.9} C${width * 0.25},${height},${width * 0.75},${height},${width},${height * 0.9}`
     return (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" className="absolute bottom-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox={view_box}>
         <mask id="splashBackgroundMask">
-          <path fill="white" d="M1440,450L1440,0L0,0L0,450 C480,500,960,500,1440,450" />
+          <path fill="white" d={mask_path} />
+          {/* <rect x={(Math.max(width, TARGET_WIDTH) - width) / 2} width={width} y="-50" height="500" fill="white" rx="1440" ry="50" /> */}
         </mask>
         <g mask="url(#splashBackgroundMask)">
-          <rect width="1440" height="500" fill="#017DD0" />
+          <rect width={Math.max(width, TARGET_WIDTH)} height="500" fill="#017DD0" />
           {(() => {
             const bars = Math.floor(TARGET_WIDTH / 72);
             const f = (x: number) => ((x + 1) / bars) ** 3;
@@ -50,11 +56,10 @@ export default function Splash() {
       </svg>
     );
   }
-
   return (
     <div className="relative flex flex-col items-center justify-center h-[32rem]">
       <span className="absolute top-0 md:h-1/2 sm:h-3/4 h-4/5 w-full bg-primary-600" />
-      {generateBackground(size.width ?? 1440, 500)}
+      <div className="absolute bottom-0 w-full h-full xs:hidden">{generateBackground(size.width ?? 1440, 500)}</div>
       <div className="relative z-10 flex flex-col items-center p-16">
         <p className="font-bold text-4xl text-neutral-100 lg:text-6xl mb-8">FinScope AI</p>
         <p className="text-lg text-wrap text-center text-neutral-100 md:max-w-[60%] mb-8">
