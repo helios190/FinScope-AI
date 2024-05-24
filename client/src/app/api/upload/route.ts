@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
   const url = new URL(req.url);
   const id = url.searchParams.get("id");
 
-  const result = id? (await DBUtil.isIdAvailable(id))? "Available" : "Not Available" : "None";
+  const result = id ? ((await DBUtil.isIdAvailable(id)) ? "Available" : "Not Available") : "None";
 
   return new Response(JSON.stringify({ message: result }), {
     headers: { "content-type": "application/json" },
@@ -18,19 +18,6 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-
-    // for testing
-    return new Response(
-        JSON.stringify({
-          message: "Success",
-          id: "test-id",
-        }),
-        {
-          headers: { "content-type": "application/json" },
-          status: 200,
-        }
-      );
-
   await dbConnect();
 
   const buffer = await req.arrayBuffer();

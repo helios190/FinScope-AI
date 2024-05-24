@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import BrowseFile from "@/components/upload_page/BrowseFile";
 import DropFile from "@/components/upload_page/DropFile";
@@ -14,7 +14,8 @@ enum Features {
   Feature2,
 }
 
-interface CompanyData {
+interface StockData {
+  _id: string;
   name: string;
 }
 
@@ -23,13 +24,23 @@ export default function UploadPage() {
 
   const [feature, setFeature] = useState<Features>(Features.Feature2);
   const [file, setFile] = useState<File | undefined>(undefined);
-  const [companies, setCompanies] = useState<CompanyData[]>([
-    { name: "BNI" },
-    { name: "BRI" },
-    { name: "BCA" },
-    { name: "Mandiri" },
-  ]);
-  const [selectedCompanies, setSelectedCompanies] = useState<(CompanyData | null)[]>([null]);
+  const [stocks, setStocks] = useState<StockData[]>([]);
+  const [selectedCompanies, setSelectedCompanies] = useState<(StockData | null)[]>([null]);
+
+  const fetchStocks = () => {
+    fetch("/api/stocks")
+      .then((res) => res.json())
+      .then((data) => {
+        data = data.map((stock: any) => {
+          return { _id: stock._id, name: stock.Symbol } as StockData;
+        });
+        setStocks(data);
+      });
+  };
+
+  useEffect(() => {
+    fetchStocks();
+  }, []);
 
   const handleFileSelect = (file: File | undefined) => {
     setFile(file);
@@ -44,32 +55,34 @@ export default function UploadPage() {
     }
   };
   const handleSubmit = async () => {
-    if (!file) return;
-    if (process.env.NEXT_PUBLIC_BACKEND_API_ORIGIN === undefined) {
-      alert("Error uploading file");
-      return;
-    }
+    // if (process.env.NEXT_PUBLIC_BACKEND_API_ORIGIN === undefined) {
+    //   alert("Error uploading file");
+    //   return;
+    // }
+    if (feature == Features.Feature1) {
+      if (!file) return;
+      const formData = new FormData();
+      formData.append("file", file);
+      try {
+        const response = await fetch("/api/upload", {
+          method: "POST",
+          body: await file.arrayBuffer(),
+        });
 
-    const formData = new FormData();
-    formData.append("file", file);
-    try {
-      const response = await fetch("/api/upload", {
-        method: "POST",
-        body: await file.arrayBuffer(),
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        if (data.id) router.push("/result?id=" + data.id);
-      } else alert("Upload failed");
-    } catch (e) {
-      console.error("Error:", e);
-      alert("Error uploading file");
+        if (response.ok) {
+          const data = await response.json();
+          if (data.id) router.push("/result?id=" + data.id);
+        } else alert("Upload failed");
+      } catch (e) {
+        console.error("Error:", e);
+        alert("Error uploading file");
+      }
+    } else if (feature == Features.Feature2) {
     }
   };
   const handleCompanyChange = (index: number, event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedCompanies(
-      [...selectedCompanies].with(index, companies.find((company) => company.name === event.target.value) || null)
+      [...selectedCompanies].with(index, stocks.find((company) => company.name === event.target.value) || null)
     );
   };
   const handleRemoveCompany = (index: number) => {
@@ -137,10 +150,10 @@ export default function UploadPage() {
               <div key={i} className="flex flex-row w-full border-2 rounded-md border-black overflow-hidden">
                 <select
                   className="w-full px-4 py-2 mr-2 outline-none"
-                  value={company?.name ?? companies[0].name}
+                  value={company?.name ?? ""}
                   onChange={(event) => handleCompanyChange(i, event)}
                 >
-                  {companies.map((company, i) => {
+                  {stocks.map((company, i) => {
                     return <option key={i}>{company?.name ?? ""}</option>;
                   })}
                 </select>
