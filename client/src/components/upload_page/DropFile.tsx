@@ -34,6 +34,8 @@ const FileDrop: React.FC<{ onFileDrop: (files: FileList) => void }> = ({ onFileD
     }
   };
 
+  
+
   return (
     <div
       className={`w-full h-64 border-2 ${isDragging? "" : "border-dashed"} border-neutral-800 rounded-md flex flex-col items-center justify-center`}

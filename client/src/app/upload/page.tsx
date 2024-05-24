@@ -68,7 +68,9 @@ export default function UploadPage() {
     }
   };
   const handleCompanyChange = (index: number, event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedCompanies([...selectedCompanies].with(index, companies.find((company) => company.name === event.target.value) || null));
+    setSelectedCompanies(
+      [...selectedCompanies].with(index, companies.find((company) => company.name === event.target.value) || null)
+    );
   };
   const handleRemoveCompany = (index: number) => {
     setSelectedCompanies(selectedCompanies.filter((_, i) => i !== index));
@@ -85,7 +87,7 @@ export default function UploadPage() {
             if (feature != Features.Feature1) setFeature(Features.Feature1);
           }}
         >
-          Feature 1
+          Scan Financial Report
         </button>
         <button
           className={`w-full border-2 border-black p-2 rounded-r-md ${
@@ -95,14 +97,16 @@ export default function UploadPage() {
             if (feature != Features.Feature2) setFeature(Features.Feature2);
           }}
         >
-          Feature 2
+          Compare Companies
         </button>
       </div>
       {feature == Features.Feature1 && (
         <div className="flex flex-col px-12 pt-6 pb-12 gap-y-2">
           <p className="font-bold text-lg">Upload Financial Report</p>
           <BrowseFile file={file} onFileSelect={handleFileSelect} />
-          <DropFile onFileDrop={handleFileDrop} />
+          <div className="hidden sm:flex">
+            <DropFile onFileDrop={handleFileDrop} />
+          </div>
           <div className="flex flex-row justify-between">
             <div className="flex flex-col sm:flex-row gap-x-8">
               <div className="flex flex-row gap-x-2">
@@ -126,12 +130,13 @@ export default function UploadPage() {
         </div>
       )}
       {feature == Features.Feature2 && (
-        <div className="flex flex-col px-12 pt-6 pb-12 gap-y-2 items-center">
+        <div className="flex flex-col px-12 pt-6 pb-12 gap-y-2">
+          <p className="font-bold text-lg">Compare Known Companies</p>
           {selectedCompanies.map((company, i) => {
             return (
               <div key={i} className="flex flex-row w-full border-2 rounded-md border-black overflow-hidden">
                 <select
-                  className="w-full p-4 mr-2 outline-none"
+                  className="w-full px-4 py-2 mr-2 outline-none"
                   value={company?.name ?? companies[0].name}
                   onChange={(event) => handleCompanyChange(i, event)}
                 >
@@ -140,19 +145,19 @@ export default function UploadPage() {
                   })}
                 </select>
                 <button className="px-4 bg-red-600" onClick={() => handleRemoveCompany(i)}>
-                    <Trash fill="white"/>
+                  <Trash fill="white" />
                 </button>
               </div>
             );
           })}
           <button
-            className="rounded-md p-2 border-2 border-black hover:bg-gray-300 w-1/4"
+            className="rounded-md p-2 border-2 border-black hover:bg-gray-300 w-1/4 self-center"
             hidden={selectedCompanies.length >= 5}
             onClick={() => {
               if (selectedCompanies.length < 5) setSelectedCompanies([...selectedCompanies, null]);
             }}
           >
-            Add
+            +
           </button>
         </div>
       )}
