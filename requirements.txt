@@ -55,7 +55,7 @@ pymongo==4.7.2
 pytesseract==0.3.10
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
-pytickersymbols==1.15.0
+pytickersymbols==1.13.0
 pytz==2024.1
 PyYAML==6.0.1
 requests==2.32.2
