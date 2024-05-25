@@ -6,12 +6,12 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage, AIMessage
 from langchain.embeddings.openai import OpenAIEmbeddings
 from dotenv import load_dotenv
+
 import datetime
 import os
 from server.ocr_handle.database import get_db, update_user_data
 from server.ocr_handle.ocr import ocr_image_from_blob
 from server.ocr_handle.storage import upload_file_to_blob, get_blob_client
-
 
 
 load_dotenv()
@@ -136,6 +136,19 @@ def ocr_extract():
         extracted_text = ocr_image_from_blob(blob_client)
         update_user_data(last_file['_id'], extracted_text)
         
+        # Di chunk dulu
+        from langchain.text_splitter import RecursiveCharacterTextSplitter
+        # split documents into text and embeddings
+
+        text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000, 
+        chunk_overlap=200,
+        length_function=len,
+        is_separator_regex=False
+        )
+
+        chunks = text_splitter.split_documents(extracted_text)
+       
         return jsonify({
             'message': 'OCR extraction successful',
             'extracted_text': extracted_text
